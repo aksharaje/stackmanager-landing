@@ -49,6 +49,12 @@ export default function Home() {
         <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-white/[0.02] rounded-full blur-3xl pointer-events-none" />
 
         <div className="max-w-4xl mx-auto text-center relative z-10">
+          {/* Logo/Title */}
+          <div className="flex items-center justify-center gap-2 mb-6">
+            <span className="text-2xl sm:text-3xl font-bold">Stackmanager</span>
+            <span className="text-2xl sm:text-3xl text-gray-500">.ai</span>
+          </div>
+
           {/* Coming Soon Badge */}
           <div className="inline-flex items-center px-4 py-2 border border-gray-700 rounded-full text-gray-400 text-sm mb-8">
             <span className="w-2 h-2 bg-white rounded-full mr-2 animate-pulse" />
